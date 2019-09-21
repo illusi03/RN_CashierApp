@@ -101,7 +101,7 @@ class ScreenProfile extends Component {
               <View style={[Styles.cardSimpleContainer, StylesLocal.ContentHead, {
                 alignItems: 'flex-start',
                 marginTop: hp(1),
-                height: hp(47)
+                height: hp(50)
               }]}>
 
                 <View style={{ flexDirection: 'row', marginBottom: wp(2) }}>
@@ -205,7 +205,8 @@ class ScreenProfile extends Component {
                         backgroundColor:Color.darkPrimaryColor,
                         borderRadius:2,
                         justifyContent:'center',
-                        alignItems:'center'
+                        alignItems:'center',
+                        zIndex:100
                       }}
                       activeOpacity={0.8}
                     >
